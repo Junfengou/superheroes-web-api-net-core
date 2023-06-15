@@ -107,3 +107,4 @@ C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\refint\Supe
 C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\SuperHeroes-Project.pdb
 C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\SuperHeroes-Project.genruntimeconfig.cache
 C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\ref\SuperHeroes-Project.dll
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\appsettings.Production.json

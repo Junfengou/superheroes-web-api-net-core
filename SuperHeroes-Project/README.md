@@ -41,3 +41,9 @@ To remove a table
 	2. Make sure all references to that model has been deleted
 	3. Run -> [dotnet ef migrations add (fileName...[name it something like remove_table_name ])]
 	4. Run -> dotnet ef database update
+
+Deployment on Azure
+------------
+Follow this guide from microsoft
+	- https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-7.0
+Note: This does not contain the tutorial to deploy the database
