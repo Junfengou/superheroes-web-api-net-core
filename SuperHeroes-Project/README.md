@@ -27,10 +27,17 @@ Initial setup
 6. Local DB connection string: "Server=(localdb)\\MSSQLLocalDB;Database=superherodb;Trusted_Connection=true;"
 7. Run -> [dotnet ef database update] to trigger a migration process. This will update the database based on your sql scripts
 
-New migrations
+New migrations w/ Entity Framework
 ------------------
 To create a new table
 	1. Create a new model
 	2. Create a new DbSet<newModel> in the DbContext file
 	3. Run -> dotnet ef migrations add [...filename]
+	4. Run -> dotnet ef database update
+
+To remove a table
+	1. Remove or comment out the table model you're trying to remove. 
+		1.1 For example....remove DbSet<newModel> in the DbContext file
+	2. Make sure all references to that model has been deleted
+	3. Run -> [dotnet ef migrations add (fileName...[name it something like remove_table_name ])]
 	4. Run -> dotnet ef database update
