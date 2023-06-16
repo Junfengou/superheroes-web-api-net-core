@@ -108,3 +108,9 @@ C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\SuperHeroes
 C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\SuperHeroes-Project.genruntimeconfig.cache
 C:\Projects\SuperHeroes-Project\SuperHeroes-Project\obj\Debug\net7.0\ref\SuperHeroes-Project.dll
 C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\appsettings.Production.json
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\System.Web.Http.dll
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Projects\SuperHeroes-Project\SuperHeroes-Project\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

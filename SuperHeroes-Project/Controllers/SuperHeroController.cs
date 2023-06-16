@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SuperHeroes_Project.Services.SuperHeroService;
+using System.Web.Http.Cors;
 
 namespace SuperHeroes_Project.Controllers
 {
+    //[EnableCors(origins: "https://superheroes-project-test.azurewebsites.net", headers: "*", methods: "*")]
+
     [Route("api/[controller]")]
     [ApiController]
     public class SuperHeroController : ControllerBase

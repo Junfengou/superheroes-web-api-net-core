@@ -42,8 +42,24 @@ To remove a table
 	3. Run -> [dotnet ef migrations add (fileName...[name it something like remove_table_name ])]
 	4. Run -> dotnet ef database update
 
+
 Deployment on Azure
 ------------
+Steps to publish the app on Azure
+	1. Right click on the project and select Publish
+
 Follow this guide from microsoft
 	- https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-7.0
 Note: This does not contain the tutorial to deploy the database
+
+
+After the site has been deployed...
+----------
+- Typical convention: 
+	- Create 2 appsettings files. One for development and one for production
+	- Each one of these should have it's own unique connection string
+
+Azure SQL
+----------
+- Azure Portal -> Azure SQL Database
+
